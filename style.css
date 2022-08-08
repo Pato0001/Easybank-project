@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rooter {
+    --DarkBlue: hsl(233, 26%, 24%);
+    --LimeGreen: hsl(136, 65%, 51%);
+    --BrightCyan: hsl(192, 70%, 51%);
+    --GrayishBlue: hsl(233, 8%, 62%);
+    --LightGrayishBlue: hsl(220, 16%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+span{
+    color: hsl(233, 8%, 62%);
+}
+
+p {
+    color: hsl(233, 8%, 62%);
+}
+
+header {
+    background-color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+}
+
+/* ------------This is the intro-section-------------- */
+.intro {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    /* position: relative; */
+    overflow-y: visible;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.intro-text {
+    margin-left: 100px;
+}
+
+button {
+    margin: 20px 0px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, hsl(130, 65%, 31%), hsl(192, 78%, 51%));
+}
+
+.intro-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    color: hsl(233, 8%, 62%);
+}
+
+.intro-image {
+    background-image: url(./Images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50px;
+    background-position-y: 50px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.intro-image img {
+    width: 80%;
+    transform: translate(150px, -50px);
+}
+
+/* --------------The secong intro section------------------ */
+.reason {
+    background-color: hsl(220, 16%, 96%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+.benefit {
+    align-items: center;
+    justify-items: center;
+    padding: 100px 100px 0px 100px;
+    width: 750px;
+}
+
+.why-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    column-gap: 70px;
+    width: 90%;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.whyimg {
+    margin: 20px 0px;
+}
+
+.why-list h2 {
+    margin: 20px 0px;
+}
+
+.Latest-article {
+    padding: 100px 100px 0px 100px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.Latest-article h1 {
+    margin-bottom: 30px;
+}
+
+.Latest-article img {
+    width: 250px;
+    height: 200px;
+    /* margin: 20px 0px; */
+}
+
+.articlecard {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 90%;
+    column-gap: 70px;
+}
+
+.articlecard h4 {
+    margin: 20px 0px;
+}
+
+.card-text {
+    background-color: white;
+    /* border: 1px solid red; */
+    width: 85%;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+/* ---------------------------This is Footer Section----------------------- */
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    height: 200px;
+}
+
+.footer-1img {
+    padding: 20px 100px 50px 100px;
+}
+
+.social-links li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.social-link {
+    padding-left: 100px;
+}
+
+.ft-one-nav-1 {
+    display: grid;
+    transform: translate(500px, -90px);
+    list-style-type: none;
+}
+
+.ft-one-nav-2 {
+    display: grid;
+    transform: translate(700px, -180px);
+    list-style-type: none;
+}
+
+.ft-two {
+    transform: translate(1200px, -290px);
+}
+
+
+
+/* font-family: 'Public Sans', sans-serif; */
